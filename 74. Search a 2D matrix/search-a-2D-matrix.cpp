@@ -9,7 +9,7 @@ public:
             int cur = matrix[row][col];
             if (cur == target) return true;
             if (target > cur) row++;
-            else col--;
+	          else col--;
         }
         
         return false;
